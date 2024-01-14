@@ -4,7 +4,7 @@ function delay(ts: number): Promise<void> {
   })
 }
 
-export async function releaseData(): Promise<typeof data> {
+export async function fetchReleaseData(): Promise<typeof data> {
   await delay(300 + Math.random() * 500)
   return {
     releases: [
