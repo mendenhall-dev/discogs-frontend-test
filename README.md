@@ -9,7 +9,9 @@ or Release year.
 You can use the mocked API in `src/data.ts` to fetch the release data.
 
 ## Requirements
+
 The finished solution **should**:
+
 - Be implemented in Typescript or plain JavaScript and React.
 - Display cards with the following information:
   - title,
@@ -32,12 +34,15 @@ The finished solution **should**:
   JavaScript, etc.
 
 ## Tips
+
 - Keep it simple!
 - Using starters like `create-react-app` is ok, but make sure to remove code
   you are not using.
 
 ## Submission
+
 To submit your solution:
+
 - Create a private Github Repository that contains your code
 - [Invite](https://docs.github.com/en/github/setting-up-and-managing-your-github-user-account/managing-access-to-your-personal-repositories/inviting-collaborators-to-a-personal-repository)
   **mrlarner** and **romeovs** as contributors
