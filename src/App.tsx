@@ -9,7 +9,6 @@ const baseUrl = '//discogs.com'
 const recordLabel = {
   id: 245,
   name: 'R&S Records',
-  slug: 'r-s-records',
 } as const
 
 const defaultSorterName = 'year-ascending'
