@@ -1,0 +1,20 @@
+name: lint
+
+on:
+  pull_request:
+    paths-ignore:
+      - "**/*.ts"
+      - "**/*.tsx"
+      - "**/.eslintrc.yml"
+      - .github/actions/setup-node/**
+      - .github/workflows/eslint.yml
+      - package.json
+      - tsconfig.json
+      - tsconfig.node.json
+      - yarn.lock
+
+jobs:
+  eslint:
+    runs-on: ubuntu-22.04
+    steps:
+      - run: echo 'Skipped'

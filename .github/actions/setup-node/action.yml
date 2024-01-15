@@ -1,0 +1,14 @@
+description: Provides Common Setup for Workflows Dependent on NodeJS
+name: setup-node
+
+runs:
+  using: composite
+  steps:
+    - run: corepack enable
+      shell: sh
+    - uses: actions/setup-node@8f152de45cc393bb48ce5d89d36b731f54556e65 # v4.0.0
+      with:
+        cache: 'yarn'
+        node-version-file: '.node-version'
+    - run: yarn install --immutable --mode=skip-build
+      shell: sh
