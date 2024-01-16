@@ -10,8 +10,8 @@
     {
       "matchManagers": ["npm"],
       "internalChecksFilter": "strict",
-      "postUpdateOptions": ["yarnDedupeHighest"],
-      "minimumReleaseAge": "3 days"
+      "minimumReleaseAge": "3 days",
+      "postUpdateOptions": ["yarnDedupeHighest"]
     }
   ]
 }
