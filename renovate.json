@@ -7,5 +7,14 @@
   "commitMessageTopic": "{{{depName}}}@{{{newVersion}}}",
   "commitMessageExtra": "",
   "rangeStrategy": "bump",
-  "rebaseWhen": "conflicted"
+  "rebaseWhen": "conflicted",
+
+  "packageRules": [
+    {
+      "matchManagers": ["npm"],
+
+      "internalChecksFilter": "strict",
+      "stabilityDays": 3
+    }
+  ]
 }
