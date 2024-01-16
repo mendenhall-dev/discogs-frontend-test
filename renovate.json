@@ -1,21 +1,24 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-
-  "extends": ["config:best-practices", ":automergeMinor"],
-
+  "extends": [
+    "config:best-practices",
+    ":automergeMinor"
+  ],
   "commitMessageAction": "",
   "commitMessageTopic": "{{{depName}}}@{{{newVersion}}}",
   "commitMessageExtra": "",
   "rangeStrategy": "bump",
   "rebaseWhen": "conflicted",
-
   "packageRules": [
     {
-      "matchManagers": ["npm"],
-
+      "matchManagers": [
+        "npm"
+      ],
       "internalChecksFilter": "strict",
-      "postUpdateOptions": ["yarnDedupeHighest"],
-      "stabilityDays": 3
+      "postUpdateOptions": [
+        "yarnDedupeHighest"
+      ],
+      "minimumReleaseAge": "3 days"
     }
   ]
 }
