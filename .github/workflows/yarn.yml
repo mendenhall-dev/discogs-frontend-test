@@ -1,6 +1,9 @@
 name: yarn
 
 on:
+  merge_group:
+    types:
+      - checks_requested
   push:
     paths:
       - .github/actions/setup-node/**
