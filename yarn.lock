@@ -1016,7 +1016,7 @@ __metadata:
     "@vitejs/plugin-react-swc": "npm:3.7.2"
     eslint: "npm:8.57.1"
     eslint-plugin-react-hooks: "npm:4.6.0"
-    eslint-plugin-react-refresh: "npm:0.4.16"
+    eslint-plugin-react-refresh: "npm:0.4.17"
     react: "npm:^18.2.0"
     react-dom: "npm:^18.2.0"
     typescript: "npm:5.7.3"
@@ -1173,12 +1173,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-react-refresh@npm:0.4.16":
-  version: 0.4.16
-  resolution: "eslint-plugin-react-refresh@npm:0.4.16"
+"eslint-plugin-react-refresh@npm:0.4.17":
+  version: 0.4.17
+  resolution: "eslint-plugin-react-refresh@npm:0.4.17"
   peerDependencies:
     eslint: ">=8.40"
-  checksum: 10c0/0628d54b6cc6773a89252e2a7c82c7905a00dc8dc99a6ae2885a64f3b45bd3012a40cf9791ee24aa5dcf75665d8c8be4699845bbbf205cd0ef652702701a7865
+  checksum: 10c0/9c1e159d0c21cc12433fa3e09ba7836efb41b4d66145a0550497afd1dd72af48d3b5437e224ae6425bf2b5077449d6797af7a66cb4926675f1c50aee7209d1b6
   languageName: node
   linkType: hard
 
